@@ -1,0 +1,56 @@
+// Main colors and css classes
+$mainColor: #094f86;
+$activeColor: #0c77cc;
+$globalFont: 'Lato', Arial, sans-serif;
+
+.navbar{
+    background-color: white;
+    height: 85px;
+}
+#navbarList{
+    a{
+        color: $mainColor;
+    }
+    li.active a{
+        color: $activeColor;
+    }
+}
+
+.jumbotron{
+    height: 92vh;
+}
+.jumboImage{
+    // background-image: url(https://images.unsplash.com/photo-1533105079780-92b9be482077?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80);
+    background-image: url("../img/bioSiteImg2.jpg");
+    background-position: 55% 60%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.card{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.card-deck{
+    .card-img-top{
+        height: 14rem;
+    }
+}
+.sectionDivider{
+    //border-top: 2px solid $mainColor;
+    // border-bottom: 2px solid $mainColor;
+    box-shadow: 0 20px 30px rgba($mainColor, 0.1);        
+
+    p{
+        margin: 10px;
+        padding: 10px;
+        font-size: 27px;
+    }
+}
+.site-footer {
+    // background-image: linear-gradient($mainColor, white);
+    box-shadow: 0 0px 20px rgba($mainColor, 0.1);        
+    padding: 12px 0;
+}
